@@ -1,3 +1,14 @@
+
+# This project is from fireship's NextJS 13 tutorial updated for NextJS 14
+### https://www.youtube.com/watch?v=__mSgDEOyv8
+
+###### Changes to note:
+- in CreateNote.tsx, the create funtion paramater  ```event: React.FormEvent<HTMLFormElement>``` is added due to event being deprecated 
+- in CreateNote.tsx, in the body of the create function, ```event.preventDefault()``` is added for the same reason
+
+## credit to @manishtaker8622 on youtube for these fixes
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
